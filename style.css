@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+    }
+    body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    z-index: -1;
+}
+    .navbar{
+     
+    
+    }
+    .navbar ul{
+    list-style:none;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    
+    }
+    .navbar ul li{
+    padding: 30px 0px;
+    }
+    .navbar ul a{
+    text-decoration:none;
+    font-weight:500;
+    color:#e6e6ff;
+    font-size: large;
+    letter-spacing: 4px;
+    border:2px solid rgb(90, 156, 179);
+    border-radius: 2px;
+    padding: 5px 10px;
+    }
+    .navbar ul a:hover{
+    color:rgb(182, 225, 240);
+    }
+    .sectionA{
+    display: flex;
+    height:900px;
+    width:100%;
+   
+    
+    
+    
+    
+    }
+    #intro{
+    font-size:50px;
+    color:white;
+    width:50%;
+    padding:10px;
+    padding-left:200px;
+    padding-top:120px;
+    letter-spacing: 2px;
+    }
+    #des{
+    font-size:30px;
+    padding-left:5px;
+    padding-top:10px;
+    color: white;
+    }
+    #des a:hover{
+        color: rgb(26, 151, 192);
+       
+
+
+    }
+  
+    .btn{
+        font-size: 20px;
+        padding: 3px 9px;
+        background-color: rgb(26, 151, 192);
+        opacity: 0.9;
+        color:white;
+        border:5px solid rgb(47, 156, 192);
+        border-radius: 5px;
+        margin-right: 10px;
+        text-decoration: none;
+
+    }
+    .btn:hover{
+        opacity: 0.7;
+    }
+
+    #intro-ex{
+        
+        color:white;
+        width:50%;
+        padding:10px;
+        padding-left:200px;
+        padding-top:120px;
+        }
+    #intro-ex ul{
+        list-style: none;
+        
+
+    }
+    #intro-ex ul li {
+        overflow: hidden;
+        
+       
+        
+    }
+
+    #intro-ex ul li a{
+        text-decoration: none;
+        color:rgb(26, 151, 192);
+        font-size: 45px;
+        word-spacing: 3px;
+        
+    }
+    #intro-ex ul li a:hover{
+        text-decoration: underline;
+        color:rgb(172, 199, 207) ;
+        
+        
+    }
+    footer{
+        text-align: center;
+        color:white;
+        padding: 20px 0px;
+        font-weight: 300;
+    }
